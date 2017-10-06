@@ -28,7 +28,7 @@ height = 500
 
 turtle.setworldcoordinates(-20, -20, 500, 500)
 
-n = Welcome()  #int(input("Create a n^2 by n^2 Puzzle, Enter an N: "))
+n = Welcome()
 turtle.goto(0, 0)
 turtle.clear()
 
