@@ -1,2 +1,0 @@
-# Suduko
-Sudoku in python
