@@ -29,7 +29,7 @@ function draw()
     ortho(-width, height, width, -height, 0, width * 2.5)
     rotateX(-QUARTER_PI);
     rotateY(magicangle);
-
+    orbitControl();
     let offset = 0
     for (let z = 0; z < height; z += w)
     {
