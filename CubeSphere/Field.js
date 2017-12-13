@@ -4,6 +4,7 @@ let magicangle;
 let maxH;
 let minH;
 let maxD;
+let angleoffset = 0;
 
 function setup()
 {
@@ -21,10 +22,10 @@ function setup()
 function draw()
 {
     background(0);
-    // pointLight(255, 255, 255, 0, 0, 0)
-    // pointLight(0, 43, 255, 100, 100, 100)
-    // pointLight(0, 255, 43, -100, 0, -100)
-    // directionalLight(0, 0, 255, -100, 0, -100)
+    pointLight(255, 255, 255, 0, 0, 0)
+    directionalLight(115, 220, 255, 1, 0, 0)
+    directionalLight(255, 220, 115, -1, 0, 0)
+    directionalLight(41, 41, 41, 0, -1, 0)
     translate(0, width / 10, 0)
     ortho(-width, height, width, -height, 0, width * 2.5)
     rotateX(-QUARTER_PI);
@@ -40,15 +41,16 @@ function draw()
             offset = map(d, 0, maxD, -PI, PI)
             let a = angle + offset
             let h = floor(map(sin(a), -1, 1, minH, maxH))
-
-            normalMaterial()
-            // ambientMaterial(255, 255, 255);
+            ambientMaterial(255, 255, 255);
             translate(x - width / 2, 0, z - height / 2);
             box(w, h, w)
             pop();
         }
     }
-    angle -= .1
+
+    angleoffset += .008
+    angle += cos(angleoffset) / 10
+
 }
 
 function dist2(x1, y1, x2, y2)
