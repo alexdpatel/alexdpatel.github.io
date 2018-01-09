@@ -1,0 +1,161 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/* Intro Section Formating */
+.text-center{
+  text-align: center;
+}
+.titleGold {
+    font-size: 3000%;
+    color:#ffb535;
+    /*text-shadow: 2px 2px 0px #292929;*/
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color:#ffb535;
+    padding: 10px;
+}
+.paragraphGold {
+    font-size: 600%;
+    color:#ffb535;
+    /*text-shadow: 2px 2px 0px #292929;*/
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Course Section Formating */
+.goldTextHeading{
+  font-size: 500%;
+  color:#ffb535;
+  text-transform: uppercase;
+  text-align: center;
+}
+.aboutParagraph{
+  font-size: 150%;
+  color: #002AFF;
+  text-align: center;
+}
+.download{
+  font-size: 150%;
+  color: #002AFF;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color:#ffb535;
+}
+.goldTextHeading2{
+  font-size: 400%;
+  color:#ffb535;
+  text-transform: uppercase;
+  text-align: center;
+}
+.SchoolName{
+  font-size: 200%;
+  color: #002AFF;
+  text-transform: uppercase;
+  text-align: center;
+}
+.tableHeading{
+  font-size: 150%;
+  color:#ffb535;
+  text-transform: uppercase;
+  text-align: center;
+}
+.tableText{
+  font-size: 100%;
+  color: #002AFF;
+  text-align: center;
+}
+.GPAFormat{
+  font-size: 100%;
+  color: #002AFF;
+  text-align:right;
+}
+
+
+/* Projects Section Formating */
+.gold2TextHeading{
+  font-size: 500%;
+  color:#ffb535;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 2px 2px 0px #292929;
+  padding: 50px;
+}
+.tableHeadingGold{
+  padding: 10px;
+  font-size: 250%;
+  color:#ffb535;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 2px 2px 0px #292929;
+}
+.tableTextGold
+{
+  font-size: 350%;
+  color: #ffb535;
+  text-align: center;
+  text-shadow: 2px 2px 0px #292929;
+  text-decoration: underline;
+  text-decoration-color:#ffb535;
+}
+
+/* Projects - CLubs SubHeading Section Formating */
+
+/*  Sections */
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background:url("../Resources/image2.jpg");
+    background-size: cover;
+}
+
+.courses {
+    height: 80%;
+    padding-top: 50px;
+    text-align: center;
+    background: #ffffff
+}
+
+.Personal-Projects-section {
+    height: 90%;
+    padding-top: 0px;
+    text-align: center;
+    background:url("../Resources/image2.jpg");
+    background-size: cover;
+}
+
+.contact-section {
+    height: 10%;
+    padding-top: 40px;
+    text-align: center;
+    background: #ffffff
+
+}
