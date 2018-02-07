@@ -32,9 +32,9 @@ html {
   text-align: center;
 }
 .titleGold {
-    font-size: 3000%;
     color:#ffb535;
     /*text-shadow: 2px 2px 0px #292929;*/
+    font-size: 30vw;
     text-transform: capitalize;
     text-align: center;
     text-decoration: underline;
@@ -42,7 +42,7 @@ html {
     padding: 10px;
 }
 .paragraphGold {
-    font-size: 600%;
+    font-size: 5vw;
     color:#ffb535;
     /*text-shadow: 2px 2px 0px #292929;*/
     text-transform: capitalize;
@@ -52,56 +52,55 @@ html {
 
 /* Course Section Formating */
 .goldTextHeading{
-  font-size: 500%;
+  font-size: 4vw;
   color:#ffb535;
   text-transform: uppercase;
   text-align: center;
 }
 .aboutParagraph{
-  font-size: 150%;
+  font-size: 1.5vw;
   color: #002AFF;
   text-align: center;
 }
 .download{
-  font-size: 150%;
+  font-size: 1.25vw;
   color: #002AFF;
   text-align: center;
   text-decoration: underline;
   text-decoration-color:#ffb535;
 }
 .goldTextHeading2{
-  font-size: 400%;
+  font-size: 4vw;
   color:#ffb535;
   text-transform: uppercase;
   text-align: center;
 }
 .SchoolName{
-  font-size: 200%;
+  font-size: 2vw;
   color: #002AFF;
   text-transform: uppercase;
   text-align: center;
 }
 .tableHeading{
-  font-size: 150%;
+  font-size: 1.75vw;
   color:#ffb535;
   text-transform: uppercase;
   text-align: center;
 }
 .tableText{
-  font-size: 100%;
+  font-size: 1.25vw;
   color: #002AFF;
   text-align: center;
 }
 .GPAFormat{
-  font-size: 100%;
+  font-size: 1.25vw;
   color: #002AFF;
-  text-align:right;
 }
 
 
 /* Projects Section Formating */
 .gold2TextHeading{
-  font-size: 500%;
+  font-size: 5vw;
   color:#ffb535;
   text-transform: uppercase;
   text-align: center;
@@ -110,7 +109,7 @@ html {
 }
 .tableHeadingGold{
   padding: 10px;
-  font-size: 250%;
+  font-size: 4vw;
   color:#ffb535;
   text-transform: uppercase;
   text-align: center;
@@ -118,7 +117,7 @@ html {
 }
 .tableTextGold
 {
-  font-size: 350%;
+  font-size: 3.5vw;
   color: #ffb535;
   text-align: center;
   text-shadow: 2px 2px 0px #292929;
@@ -130,22 +129,22 @@ html {
 
 /*  Sections */
 .intro-section {
-    height: 100%;
-    padding-top: 150px;
+    height: 60vw;
+    padding-top: 5vw;
     text-align: center;
     background:url("../Resources/image2.jpg");
     background-size: cover;
 }
 
 .courses {
-    height: 80%;
+    height: 60vw;
     padding-top: 50px;
     text-align: center;
     background: #ffffff
 }
 
 .Personal-Projects-section {
-    height: 90%;
+    height: 60vw;
     padding-top: 0px;
     text-align: center;
     background:url("../Resources/image2.jpg");
