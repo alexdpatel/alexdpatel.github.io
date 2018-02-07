@@ -34,7 +34,7 @@ html {
 .titleGold {
     color:#ffb535;
     /*text-shadow: 2px 2px 0px #292929;*/
-    font-size: 30vw;
+    font-size: 30vmax;
     text-transform: capitalize;
     text-align: center;
     text-decoration: underline;
@@ -42,7 +42,7 @@ html {
     padding: 10px;
 }
 .paragraphGold {
-    font-size: 5vw;
+    font-size: 5vmax;
     color:#ffb535;
     /*text-shadow: 2px 2px 0px #292929;*/
     text-transform: capitalize;
@@ -52,55 +52,55 @@ html {
 
 /* Course Section Formating */
 .goldTextHeading{
-  font-size: 4vw;
+  font-size: 4vmax;
   color:#ffb535;
   text-transform: uppercase;
   text-align: center;
 }
 .aboutParagraph{
-  font-size: 1.5vw;
+  font-size: 1.5vmax;
   color: #002AFF;
   text-align: center;
 }
 .download{
-  font-size: 1.25vw;
+  font-size: 1.25vmax;
   color: #002AFF;
   text-align: center;
   text-decoration: underline;
   text-decoration-color:#ffb535;
 }
 .goldTextHeading2{
-  font-size: 4vw;
+  font-size: 4vmax;
   color:#ffb535;
   text-transform: uppercase;
   text-align: center;
 }
 .SchoolName{
-  font-size: 2vw;
+  font-size: 2vmax;
   color: #002AFF;
   text-transform: uppercase;
   text-align: center;
 }
 .tableHeading{
-  font-size: 1.75vw;
+  font-size: 1.75vmax;
   color:#ffb535;
   text-transform: uppercase;
   text-align: center;
 }
 .tableText{
-  font-size: 1.25vw;
+  font-size: 1.25vmax;
   color: #002AFF;
   text-align: center;
 }
 .GPAFormat{
-  font-size: 1.25vw;
+  font-size: 1.25vmax;
   color: #002AFF;
 }
 
 
 /* Projects Section Formating */
 .gold2TextHeading{
-  font-size: 5vw;
+  font-size: 5vmax;
   color:#ffb535;
   text-transform: uppercase;
   text-align: center;
@@ -109,7 +109,7 @@ html {
 }
 .tableHeadingGold{
   padding: 10px;
-  font-size: 4vw;
+  font-size: 4vmax;
   color:#ffb535;
   text-transform: uppercase;
   text-align: center;
@@ -117,7 +117,7 @@ html {
 }
 .tableTextGold
 {
-  font-size: 3.5vw;
+  font-size: 3.5vmax;
   color: #ffb535;
   text-align: center;
   text-shadow: 2px 2px 0px #292929;
@@ -129,8 +129,8 @@ html {
 
 /*  Sections */
 .intro-section {
-    height: 60vw;
-    padding-top: 5vw;
+    height: 60vmax;
+    padding-top: 5vmax;
     text-align: center;
     background:url("../Resources/image2.jpg");
     background-size: cover;
