@@ -32,6 +32,7 @@ html {
   text-align: center;
 }
 .titleGold {
+    font-family: 'Roboto', sans-serif;
     color:#ffb535;
     /*text-shadow: 2px 2px 0px #292929;*/
     font-size: 30vw;
@@ -42,6 +43,7 @@ html {
     padding: 10px;
 }
 .paragraphGold {
+    font-family: 'Roboto', sans-serif;
     font-size: 5vw;
     color:#ffb535;
     /*text-shadow: 2px 2px 0px #292929;*/
@@ -52,17 +54,20 @@ html {
 
 /* Course Section Formating */
 .goldTextHeading{
+  font-family: 'Roboto', sans-serif;
   font-size: 4vw;
   color:#ffb535;
   text-transform: uppercase;
   text-align: center;
 }
 .aboutParagraph{
+  font-family: 'Roboto', sans-serif;
   font-size: 1.5vw;
   color: #002AFF;
   text-align: center;
 }
 .download{
+  font-family: 'Roboto', sans-serif;
   font-size: 1.25vw;
   color: #002AFF;
   text-align: center;
@@ -70,29 +75,34 @@ html {
   text-decoration-color:#ffb535;
 }
 .goldTextHeading2{
+  font-family: 'Roboto', sans-serif;
   font-size: 4vw;
   color:#ffb535;
   text-transform: uppercase;
   text-align: center;
 }
 .SchoolName{
+  font-family: 'Roboto', sans-serif;
   font-size: 2vw;
   color: #002AFF;
   text-transform: uppercase;
   text-align: center;
 }
 .tableHeading{
+  font-family: 'Roboto', sans-serif;
   font-size: 1.75vw;
   color:#ffb535;
   text-transform: uppercase;
   text-align: center;
 }
 .tableText{
+  font-family: 'Roboto', sans-serif;
   font-size: 1.25vw;
   color: #002AFF;
   text-align: center;
 }
 .GPAFormat{
+  font-family: 'Roboto', sans-serif;
   font-size: 1.25vw;
   color: #002AFF;
 }
@@ -100,6 +110,7 @@ html {
 
 /* Projects Section Formating */
 .gold2TextHeading{
+  font-family: 'Roboto', sans-serif;
   font-size: 5vw;
   color:#ffb535;
   text-transform: uppercase;
@@ -108,6 +119,7 @@ html {
   padding: 50px;
 }
 .tableHeadingGold{
+  font-family: 'Roboto', sans-serif;
   padding: 10px;
   font-size: 4vw;
   color:#ffb535;
@@ -117,6 +129,7 @@ html {
 }
 .tableTextGold
 {
+  font-family: 'Roboto', sans-serif;
   font-size: 3.5vw;
   color: #ffb535;
   text-align: center;
@@ -129,6 +142,7 @@ html {
 
 /*  Sections */
 .intro-section {
+    font-family: 'Roboto', sans-serif;
     height: 60vw;
     padding-top: 5vw;
     text-align: center;
@@ -137,13 +151,15 @@ html {
 }
 
 .courses {
-    height: 50vmax;
+    font-family: 'Roboto', sans-serif;
+    height: 25vmax;
     padding-top: 50px;
     text-align: center;
     background: #ffffff
 }
 
 .Personal-Projects-section {
+    font-family: 'Roboto', sans-serif;
     height: 60vmax;
     padding-top: 0px;
     text-align: center;
@@ -152,9 +168,9 @@ html {
 }
 
 .contact-section {
+    font-family: 'Roboto', sans-serif;
     height: 10%;
     padding-top: 40px;
     text-align: center;
     background: #ffffff
-
 }
